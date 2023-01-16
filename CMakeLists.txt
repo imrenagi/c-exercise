@@ -4,3 +4,4 @@ project(c-exercise C)
 
 add_executable(ex1-1 ch1/ex1-1.c)
 add_executable(ex1-2 ch1/ex1-2.c)
+add_executable(ex1-3 ch1/ex1-3.c)
