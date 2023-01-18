@@ -23,4 +23,5 @@ project(c-exercise C)
 # add_executable(ex1-19 ch1/ex1-19.c)
 # add_executable(ex1-20 ch1/ex1-20.c)
 
-add_executable(ex2-1 ch2/1.c)
+# add_executable(ex2-1 ch2/1.c)
+add_executable(ex2-2 ch2/2.c)
