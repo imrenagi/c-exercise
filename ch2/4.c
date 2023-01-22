@@ -10,7 +10,7 @@ void squeeze(char s1[], char s2[]);
 
 int main() {
   char s1[LENGTH] = "abcdddd";
-  char s2[LENGTH] = "cd";
+  char s2[LENGTH] = "ab";
   squeeze(s1, s2);
   printf("%s", s1);
   return 0;
