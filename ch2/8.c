@@ -1,12 +1,11 @@
 #include<stdio.h>
-
-#define BIT_LENGTH 16
+#include<stdint.h>
 
 /*
 Exercise 2-8. Write a function rightrot(x,n) that returns the value of the integer x rotated to the right by n positions.
 */
 unsigned short rightrot(unsigned short x, int n) {
-  return x >> n | x << (BIT_LENGTH - n);
+  return x >> n | x << (__SIZEOF_SHORT__ * 8 - n);
 }
 
 int main() {
