@@ -37,4 +37,6 @@ project(c-exercise C)
 # add_executable(ex3-1 ch3/1.c)
 # add_executable(ex3-2 ch3/2.c)
 # add_executable(ex3-3 ch3/3.c)
-add_executable(ex3-4 ch3/4.c)
+# add_executable(ex3-4 ch3/4.c)
+
+add_executable(ex4-1 ch4/exercise_1/main.c)
